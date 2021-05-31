@@ -5,7 +5,7 @@ h1{
 }
 
 body{
-    background: url("images/menu_background.jpg") no-repeat center center fixed;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/menu_background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,6 +14,7 @@ body{
     margin: 0;
     font-family: arial;
 }
+
 
 #small_logo {
     margin-top: 25px;
@@ -48,7 +49,19 @@ body{
 }
 .menu_list_ingredients{
     font-size: 14px;
-    margin-top: 4;
+    margin-top: 4px;
     color: #C8C8C8;
     display: block;
+    width: 320px;
+}
+.menu_list_badge_vege{
+    width: 100px;
+    margin-top: 4px;
+    padding: 3px 8px;
+    background-color: #DD7835;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-size: 9px;
 }
